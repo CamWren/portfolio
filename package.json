@@ -1,15 +1,21 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Cam Wren's Portfolio",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "private": true,
+  "author": "Cameron Wren",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
     "@fortawesome/react-fontawesome": "0.0.18",
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-sticky-header": "^0.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamWren/portfolio"
   },
   "keywords": [
     "gatsby"
