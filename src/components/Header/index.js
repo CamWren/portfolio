@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 

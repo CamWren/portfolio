@@ -1,15 +1,20 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+
+import hill_country from '../images/hill_country.jpg';
+
+console.log(hill_country);
 
 const IndexPage = () => (
 	<div id="parent">
 
 	  <div id="page1" style={{
+		backgroundImage: "url(" + hill_country + ")",	
 	  	margin: '0 auto',
 	  	height: '32rem',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem'}}>
-	  	<a id="home" class="smooth"></a>
+	  	<a id="home" className="smooth"></a>
 	    <h1>Hi people</h1>
 	    <p>Welcome to your new Gatsby site.</p>
 	    <p>Now go build something great.</p>
@@ -20,7 +25,7 @@ const IndexPage = () => (
 	  	height: '32rem',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem'}}>
-	  	<a id="about" class="smooth"></a>
+	  	<a id="about" className="smooth"></a>
 	    <h1>Hi people</h1>
 	    <p>Welcome to your new Gatsby site.</p>
 	    <p>Now go build something great.</p>
@@ -31,7 +36,7 @@ const IndexPage = () => (
 	  	height: '32rem',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem'}}>
-	  	<a id="resume" class="smooth"></a>
+	  	<a id="resume" className="smooth"></a>
 	    <h1>Hi people</h1>
 	    <p>Welcome to your new Gatsby site.</p>
 	    <p>Now go build something great.</p>
@@ -42,7 +47,7 @@ const IndexPage = () => (
 	  	height: '32rem',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem'}}>
-	  	<a id="works" class="smooth"></a>
+	  	<a id="works" className="smooth"></a>
 	    <h1>Hi people</h1>
 	    <p>Welcome to your new Gatsby site.</p>
 	    <p>Now go build something great.</p>
@@ -53,7 +58,7 @@ const IndexPage = () => (
 	  	height: '32rem',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem'}}>
-	  	<a id="footer" class="smooth"></a>
+	  	<a id="footer" className="smooth"></a>
 	    <h1>Hi people</h1>
 	    <p>Welcome to your new Gatsby site.</p>
 	    <p>Now go build something great.</p>
