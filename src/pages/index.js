@@ -6,16 +6,18 @@ import hill_country from '../images/hill_country.jpg';
 console.log(hill_country);
 
 const IndexPage = () => (
-	<div id="parent">
+	<div id="parent" style={{
+		margin: '-150px 0px 0px 0px',
+		width: '1494px'}}>
 
 	  <div id="page1" style={{
 		backgroundImage: "url(" + hill_country + ")",	
-	  	margin: '0 auto',
-	  	height: '32rem',
-        maxWidth: 960,
+	  	margin: '-84px auto 20px auto',
+	  	height: '50rem',
+        maxWidth: '1494px',
         padding: '1.45rem 1.0875rem'}}>
 	  	<a id="home" className="smooth"></a>
-	    <h1>Hi people</h1>
+	    <h1>Cam Wren</h1>
 	    <p>Welcome to your new Gatsby site.</p>
 	    <p>Now go build something great.</p>
 	  </div>

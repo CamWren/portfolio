@@ -10,7 +10,7 @@ const Header = () => (
 
       <div
         style={{
-          background: 'rebeccapurple',
+          background: 'transparent',
           marginBottom: '1.45rem',
         }}
       >
