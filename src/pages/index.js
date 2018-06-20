@@ -1,11 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
-
 import GuitarMan from '../images/GuitarMan.jpg';
 import AmalfiCoast from '../images/AmalfiCoast.jpg';
-
-console.log(GuitarMan);
-console.log(AmalfiCoast);
 
 const IndexPage = () => (
 	<div id="parent" style={{
@@ -37,9 +33,9 @@ const IndexPage = () => (
         maxWidth: '1494px',
         padding: '1.45rem 1.0875rem'}}>
 	  	<a id="about" className="smooth"></a>
-	    <h1>Hi people</h1>
-	    <p>Welcome to your new Gatsby site.</p>
-	    <p>Now go build something great.</p>
+	    <h1>Hello!</h1>
+	    <p>I'm Cameron.</p>
+	    <p>I enjoy being creative.</p>
 	  </div>
 
 	  <div id="page3" style={{
